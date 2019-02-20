@@ -1,0 +1,20 @@
+---
+title: "R as a Calculator"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Basic Example
+
+Let's create some variables and operations.
+
+```{r}
+a <- 12
+b <- 24
+a+b
+```
+
+Awesome!

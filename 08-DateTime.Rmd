@@ -1,4 +1,4 @@
-o---
+---
 title: "Date and Time"
 output:   
   github_document:

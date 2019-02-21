@@ -1,9 +1,5 @@
 ## Readme for the IntroDataScience repo
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-
-## Including Plots
+This repository contains basic examples in R for the 
+<a href="http://www.lac.inpe.br/~rafael.santos/talks.html">Introduction to Data Science</a> presented at the <a href="http://www.inpe.br/elac2019/">Summer School</a> of the <a href="http://www.lac.inpe.br/">Associated Laboratory for Computing and Applied Mathematics</a> of the <a href="http://www.inpe.br">Brazilian National Institute for Space Research.</p>
 

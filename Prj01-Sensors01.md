@@ -1,13 +1,17 @@
-Tidy Data Example: Hot Dogs in Baltimore
+A Simple Project: Weather Sensor Networks (part 1)
 ================
 
+-   [About](#about)
 -   [Reading Data](#reading-data)
--   [Selecting Variables and Creating Factors](#selecting-variables-and-creating-factors)
--   [Parsing Location](#parsing-location)
--   [Now for the exercises!](#now-for-the-exercises)
+    -   [Selecting Variables and Creating Factors](#selecting-variables-and-creating-factors)
+    -   [Parsing Location](#parsing-location)
+    -   [Now for the exercises!](#now-for-the-exercises)
+
+About
+=====
 
 Reading Data
-------------
+============
 
 From <https://data.baltimorecity.gov/dataset/Food-Vendor-Locations/bqw3-z52q/data>
 
@@ -134,8 +138,6 @@ paste("lat =",lat," long = ",long)
 ```
 
     ## [1] "lat = 39.2854  long =  76.6226"
-
-**There is an error on this code -- did you get it? Can you fix it?**
 
 Now for the whole dataframe:
 

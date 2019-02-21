@@ -1,5 +1,5 @@
 ---
-title: "Tidy Data Example: Hot Dogs in Baltimore"
+title: "A Simple Project: Weather Sensor Networks (part 1)"
 output:   
   github_document:
     toc: true
@@ -10,7 +10,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Reading Data
+# About
+
+# Reading Data
 
 From https://data.baltimorecity.gov/dataset/Food-Vendor-Locations/bqw3-z52q/data
 
@@ -76,9 +78,6 @@ long <- as.numeric(tempS[3])
 paste("lat =",lat," long = ",long)
 ```
 
-
-**There is an error on this code -- did you get it? Can you fix it?**
-
 Now for the whole dataframe:
 ```{r}
 tempS <- regmatches(bVendors$location,gregexpr("[0-9.]+",bVendors$location))
@@ -97,7 +96,6 @@ Worried about the values shown? Don't be.
 ```{r}
 head(subset(bVendors, select = c(location,lat,long)))
 ```
-
 
 ## Now for the exercises!
 
